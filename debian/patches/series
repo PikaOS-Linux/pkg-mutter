@@ -10,6 +10,4 @@ workspace-Don-t-crash-on-invalid-argument-to-meta_workspa.patch
 cursor-renderer-native-Workaround-broken-arm64-drivers.patch
 ubuntu/x11-Add-support-for-fractional-scaling-using-Randr.patch
 ubuntu/window-Add-ability-to-override-the-edge-constraints.patch
-pika/3080.patch
-pika/3085.patch
-#pika/1154.patch
+pika/perf.patch
