@@ -4,7 +4,7 @@ debian/meson-Do-not-mark-CI-test-tools-as-required.patch
 debian/tests-Do-not-run-screencast-tests.patch
 debian/tests-skip-monitor-width-size-check-as-it-may-lead-to-une.patch
 debian/wayland-data-device-Allow-any-drag-timestamp-as-drag-star.patch
-#debian/Support-Dynamic-triple-double-buffering.patch
+debian/Support-Dynamic-triple-double-buffering.patch
 debian/tests-Disable-restore-size-test.patch
 workspace-Don-t-crash-on-invalid-argument-to-meta_workspa.patch
 cursor-renderer-native-Workaround-broken-arm64-drivers.patch
@@ -12,4 +12,4 @@ ubuntu/x11-Add-support-for-fractional-scaling-using-Randr.patch
 ubuntu/window-Add-ability-to-override-the-edge-constraints.patch
 pika/3080.patch
 pika/3085.patch
-pika/1154.patch
+#pika/1154.patch

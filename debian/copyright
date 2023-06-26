@@ -1,5 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Source: https://download.gnome.org/sources/mutter/
+Upstream-Name: mutter
 
 Files:
  *
@@ -105,7 +106,7 @@ License: WRF-BSD-variant
 Files:
  src/tests/share/icc/vx239-calibrated.icc
 Copyright: none
-License:
+License: free-of-known-restrictions
  This profile is free of known copyright restrictions
 
 Files:
