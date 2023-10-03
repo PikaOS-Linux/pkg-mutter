@@ -10,7 +10,7 @@ export DPKG_GENSYMBOLS_CHECK_LEVEL = 4
 DEB_BUILD_OPTIONS=nocheck
 
 # Following upstream method to compute the API version
-MUTTER_MAJOR_VERSION = 45
+MUTTER_MAJOR_VERSION = 45.0
 MUTTER_API_VERSION = 13
 MUTTER_SONAME = 0
 
