@@ -8,10 +8,10 @@ This way we can mark them as nocheck without build issues.
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/meson.build b/meson.build
-index 4425a26..35599dd 100644
+index d08401b..b96e850 100644
 --- a/meson.build
 +++ b/meson.build
-@@ -391,7 +391,7 @@ if have_tests
+@@ -398,7 +398,7 @@ if have_tests
  
    add_test_setup('plain')
  

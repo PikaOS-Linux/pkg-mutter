@@ -6,6 +6,7 @@ Subject: tests: skip monitor width size check as it may lead to unexpected
 This seems to be broken only on autopkg-tests.
 
 Forwarded: not-needed
+Applied-upstream: no, see also https://bugs.debian.org/1050023
 ---
  src/tests/stacking/unmaximize-new-size.metatest | 2 --
  1 file changed, 2 deletions(-)

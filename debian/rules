@@ -38,9 +38,8 @@ CONFFLAGS = \
 	-Dremote_desktop=false
 endif
 
-ifeq ($(DEB_HOST_ARCH),$(findstring $(DEB_HOST_ARCH),armel armhf))
-CONFFLAGS += \
-	-Ddefault_driver=gles2
+ifneq ($(filter i386,$(DEB_HOST_ARCH)),)
+CONFFLAGS +=-Dprofiler=false
 endif
 
 override_dh_auto_configure:
@@ -62,6 +61,7 @@ TEST_COMMAND_FLAKY=$(TEST_COMMAND_BASE) --suite flaky
 
 # Don't run the tests on mips etc. since they either time out or fail too
 # much, blocking migration to testing.
+# Please keep this list in sync with debian/tests/installed-tests
 override_dh_auto_test:
 ifeq ($(filter nocheck,$(DEB_BUILD_OPTIONS)),)
 	glib-compile-schemas $(BUILDDIR)/data

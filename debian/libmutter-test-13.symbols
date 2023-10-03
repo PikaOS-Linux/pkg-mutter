@@ -1,5 +1,5 @@
-libmutter-test-12.so libmutter-test-12 #MINVER#
-* Build-Depends-Package: libmutter-12-dev
+libmutter-test-13.so libmutter-test-13 #MINVER#
+* Build-Depends-Package: libmutter-13-dev
  meta_async_waiter_destroy@Base 41.0
  meta_async_waiter_new@Base 41.0
  meta_async_waiter_process_x11_event@Base 41.0
@@ -51,10 +51,10 @@ libmutter-test-12.so libmutter-test-12 #MINVER#
  meta_test_client_wait@Base 41.0
  meta_test_client_wait_for_window_shown@Base 41.0
  meta_test_get_gpu@Base 42~beta
- meta_test_get_plugin_name@Base 41.0
  meta_test_monitor_destroy@Base 44~beta
  meta_test_monitor_get_type@Base 44~beta
  meta_test_monitor_new@Base 44~beta
+ meta_test_shell_get_type@Base 44.3-4~
  meta_wait_for_orientation@Base 42~beta
  meta_wait_for_paint@Base 42~beta
  meta_wait_for_possible_orientation_change@Base 42~beta

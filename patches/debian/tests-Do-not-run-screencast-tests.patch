@@ -11,10 +11,10 @@ So let's disable this for now
  1 file changed, 2 insertions(+), 1 deletion(-)
 
 diff --git a/src/tests/native-headless.c b/src/tests/native-headless.c
-index 7661547..5a2b751 100644
+index 8e8c32d..dfb0315 100644
 --- a/src/tests/native-headless.c
 +++ b/src/tests/native-headless.c
-@@ -28,7 +28,8 @@ static void
+@@ -26,7 +26,8 @@ static void
  init_tests (MetaContext *context)
  {
    init_virtual_monitor_tests (context);

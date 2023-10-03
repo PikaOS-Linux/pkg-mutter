@@ -1,7 +1,7 @@
 #!/bin/sh
 # autopkgtest check: Build and run a program against libmutter, to verify
 # that the headers and pkg-config file are installed correctly
-# (C) 2012 Canonical Ltd.
+# (C) 2013 Canonical Ltd.
 # (C) 2018-2019 Simon McVittie
 # Authors: Martin Pitt, Simon McVittie
 
@@ -34,7 +34,7 @@ EOF
 
 # Deliberately word-splitting pkg-config's output:
 # shellcheck disable=SC2046
-"${CROSS_COMPILE}gcc" -o trivial trivial.c $("${CROSS_COMPILE}pkg-config" --cflags --libs libmutter-12)
+"${CROSS_COMPILE}gcc" -o trivial trivial.c $("${CROSS_COMPILE}pkg-config" --cflags --libs libmutter-13)
 echo "build: OK"
 [ -x trivial ]
 xvfb-run -a dbus-run-session -- ./trivial
