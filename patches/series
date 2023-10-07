@@ -10,4 +10,3 @@ ubuntu/x11-Add-support-for-fractional-scaling-using-Randr.patch
 ubuntu/window-Add-ability-to-override-the-edge-constraints.patch
 workarounds/cogl-onscreen-glx-Forcefully-disable-cogl_onscreen_glx_ge.patch
 events-Don-t-un-bypass-Clutter-event-handling-in-presence.patch
-pika/3304.diff
