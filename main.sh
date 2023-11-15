@@ -10,7 +10,7 @@ for i in $(cat ../patches/series) ; do echo "Applying Patch: $i" && patch -Np1 -
 apt-get build-dep ./ -y
 
 # Build package
-LOGNAME=root dh_make --createorig -y -l -p mutter_45.0 || true
+LOGNAME=root dh_make --createorig -y -l -p mutter_45.1 || true
 dpkg-buildpackage --no-sign
 
 # Move the debs to output
